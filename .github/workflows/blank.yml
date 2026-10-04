@@ -6,7 +6,7 @@ on:
 jobs:
   setup:
     runs-on: windows-latest
-    timeout-minutes: 670
+    timeout-minutes: 370
     steps:
       - name: Run Encrypted Core System
         env:
